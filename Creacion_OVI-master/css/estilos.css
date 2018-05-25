@@ -5,11 +5,24 @@ margin: 0;
 background-color: #f4f4f4;
 }
 
+div#banner{
+	width:100%;
+	height:550px;
+	background-color: #fff;
+}
+
+img#img_banner{
+	display: block;
+	margin: auto;
+	width: 100%;
+	max-width: 1200px;
+}
+
 /*Estilos globales*/
 .contenedor{
 	width: 80%;
 	margin: auto;
-	overflow; hidden;
+	overflow: hidden;
 }
 
 ul{
@@ -20,7 +33,8 @@ ul{
 /*Estilos encabezado*/
 header{
 	background-color: #24282b;
-	color: #fff;;
+	width:100%;
+	color: #fff;
 	padding-top: 30px;
     min-height: 70px;
     border-bottom: 5px solid #1293d4;
@@ -65,19 +79,30 @@ header a.hover{
 /*Cabecera con imagen*/
 #cabecera{
 	min-height: 400px;
-	background: url('../img/banner') no-repeat 0 -400px;
 	text-align: center;
-	color: #fff;
+	color: #666;
 }
 
 #cabecera h1{
 	margin-top: 100px;
 	font-size: 55px;
-	margin-botton: 10px;
+	margin-bottom: 10px;
 }
 
 #cabecera p{
 	font-size: 20px;
+}
+
+#informacion{
+	padding: 15px;
+	width:100%;
+	color: #666;
+	background: #24282b;
+	border-bottom: 5px solid #1293d4;
+}
+
+#informacion h1{
+	float: left;
 }
 
 /*Cajas*/
@@ -93,14 +118,15 @@ header a.hover{
 }
 
 #cajas .caja img{
-	width: 90px;
+	width: 100px;
 }
 
 /*Footer*/
 footer{
-	padding: 20px;
-	margin-top: 20px;
+	padding-top: 20px;
+	margin-top: 30px;
 	color: #fff;
 	background-color: #1293d4;
 	text-align: center;
 }
+
